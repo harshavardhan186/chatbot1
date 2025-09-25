@@ -1,0 +1,19 @@
+Chatbot/
+│
+├─ src/
+│  ├─ index.js           
+│  ├─ lib/
+│  │   └─ db.js          # MongoDB connection
+│  ├─ models/
+│  │   ├─ User.js
+│  │   ├─ Project.js
+│  │   └─ Prompt.js
+│  ├─ routes/
+│  │   ├─ auth.js        # User registration & login
+│  │   └─ projects.js    # Create project, prompts, chat
+│  └─ middleware/
+│      └─ auth.js        # JWT authentication
+│
+├─ package.json
+├─ .env                  # MONGO_URI, JWT_SECRET, OPENAI_API_KEY
+└─ README.md
